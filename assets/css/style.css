@@ -1,0 +1,93 @@
+/* Estilos personalizados mínimos para complementar Bootstrap */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Personalización de la navbar */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Efectos hover en las cards */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Personalización de badges */
+.badge {
+    font-size: 0.9rem;
+}
+
+/* Personalización de botones outline */
+.btn-outline-primary:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #007f85;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+    padding: 15px 0;
+}
+
+/* -------------------------------
+   MEDIA QUERIES (para pantallas mayores)
+----------------------------------*/
+
+/* Tablets (min 600px) */
+@media (min-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    nav ul {
+        flex-direction: row; /* Menú horizontal */
+        justify-content: center;
+    }
+
+    /* Mantener el flujo vertical de secciones (apilar) */
+    main {
+        display: block;
+        gap: 20px;
+    }
+
+    #sobre-mi {
+        grid-column: span 2; /* Ocupa ancho completo */
+    }
+}
+
+/* Desktops (min 1024px) */
+@media (min-width: 1024px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+    }
+
+    nav ul {
+        gap: 20px;
+    }
+
+    main {
+        display: block;
+    }
+
+    #sobre-mi {
+        grid-column: span 3;
+    }
+
+    footer {
+        margin-top: 30px;
+    }
+}

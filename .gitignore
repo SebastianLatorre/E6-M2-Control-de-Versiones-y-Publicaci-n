@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+node_modules/
+.vscode/
+.env
+*.log
+dist/
+build/
+
+# OS generated files
+desktop.ini
+
+# Editor backups
+*~
+*.swp
