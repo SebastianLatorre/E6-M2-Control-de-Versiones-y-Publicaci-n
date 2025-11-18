@@ -10,6 +10,8 @@ Contenido del proyecto:
 -   `assets/css/style.css`
 -   `assets/js/script.js`
 
+Link para visualizar pagina web: https://sebastianlatorre.github.io/E6-M2-Control-de-Versiones-y-Publicaci-n/
+
 ---
 
 Instrucciones (Windows PowerShell):
