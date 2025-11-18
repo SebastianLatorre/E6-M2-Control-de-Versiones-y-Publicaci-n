@@ -51,12 +51,10 @@ git push -u origin main
 
 5. Activar GitHub Pages (opcional)
 
--   Vía web: en GitHub ve a `Settings` -> `Pages`, selecciona `Branch: main` y carpeta `/ (root)`, guardar; la URL tendrá formato `https://<mi_USUARIO>.github.io/<REPO>/`.
-
--   Con `gh` (si está disponible):
+-   Vía web: ir a GitHub a `Settings` -> `Pages`, selecciona `Branch: main` y carpeta `/ (root)`, guardar; la URL tendrá formato `https://<mi_USUARIO>.github.io/<REPO>/`.
 
 ```powershell
 gh pages deploy --branch main --path .
 ```
 
-Entregable: comparte el enlace al repositorio y la URL pública si activaste GitHub Pages.
+Entregable: compartir el enlace al repositorio y la URL pública si activaste GitHub Pages.
