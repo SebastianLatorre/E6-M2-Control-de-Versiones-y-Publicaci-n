@@ -31,16 +31,10 @@ git commit -m "Versión inicial del portafolio"
 
 3. Crear el repositorio remoto en GitHub
 
--   Opción A — Interfaz web:
+-   Interfaz web:
 
     1. Abre https://github.com/new
     2. Crea un repositorio público (por ejemplo `mi-portafolio`) y copia la URL remota `https://github.com/<USUARIO>/<REPO>.git`.
-
--   Opción B — `gh` CLI (si esta configurada):
-
-```powershell
-gh repo create <USUARIO>/<REPO> --public --source=. --remote=origin --push
-```
 
 4. Enlazar el remoto y subir los cambios (si se ha creado el repo vía web)
 
@@ -52,9 +46,5 @@ git push -u origin main
 5. Activar GitHub Pages (opcional)
 
 -   Vía web: ir a GitHub a `Settings` -> `Pages`, selecciona `Branch: main` y carpeta `/ (root)`, guardar; la URL tendrá formato `https://<mi_USUARIO>.github.io/<REPO>/`.
-
-```powershell
-gh pages deploy --branch main --path .
-```
 
 Entregable: compartir el enlace al repositorio y la URL pública si activaste GitHub Pages.
